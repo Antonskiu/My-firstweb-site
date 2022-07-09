@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Titillium+Web:ital,wght@1,300&display=swap');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 25px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+	font-family: 'Titillium+Web';
+	background: rgb(2,184,2);
+	background: linear-gradient(90deg, rgba(2,184,2,1) 0%, rgba(2,177,184,1) 50%, rgba(2,125,184,1) 100%);
+}
+.paralax{
+	background-image: url(https://vjoy.cc/wp-content/uploads/2020/10/dlya_dushi_35_13130628.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+img{
+	box-shadow: 0 28px 56px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
+	border-radius: 50%;
+	margin: 0.5%;
+}
+
+body > img.img1{
+	float: left;
+}
+
+body > img.img1:hover{
+	transform: scale(1.1);
+}
+
+body > img.img2{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin: auto 20% auto 20%;
+}
+
+body > img.img2:hover{
+	transform: scale(1.1);
+}
+
+body > img.img3{
+	float: right;
+}
+
+body > img.img3:hover{
+	transform: scale(1.1);
+}
+
+.tx{
+	font-family: "Ms Madi";
+	opacity: 0.3;
+	font-size: 250px;
+}
+
+div.content > div.masseg_foter p{
+	background: rgb(2,0,36);
+	background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(0,255,8,1) 0%, rgba(0,245,67,1) 36%, rgba(0,212,255,1) 100%);
+	border-radius: 10%;
+	padding: 5px;
+}
